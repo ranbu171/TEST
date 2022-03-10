@@ -1,0 +1,28 @@
+section {
+    width: 90%;
+    margin: 10px auto;
+    text-align: start;
+}
+.title {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+.postTitle {
+    box-shadow: 0 0 4px black;
+    min-height: 100px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 10px;
+    background: aquamarine;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid grey
+}
+.postTitle:hover {
+    box-shadow: 0 2px 5px black;
+}
